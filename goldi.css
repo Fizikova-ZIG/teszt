@@ -104,7 +104,7 @@ figure {
 	margin-left:auto;			/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
 	margin-right:auto;
 	margin-bottom:30px;			/* alsó margó beállítása */
-	background-color:darkred;	/* sötétszürke háttérszín beállítása*/
+	background-color:darkred;	/* sötétvörös háttérszín beállítása*/
 	transform:rotate(-2deg);	/* elforgatás 2 fokkal*/
 	border-radius:30px;			/* szegély lekerekítése*/
 	}
