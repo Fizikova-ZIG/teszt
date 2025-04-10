@@ -37,14 +37,13 @@ body {
  margin-right:auto;	
  /* középre igazítás vége */
  font-size:120%;		/* betű mérete */
- width:80%;				/* szélesség */
+ width:90%;				/* szélesség */
  font-family: Verdana, Arial, sans-serif;	/* betűtípus */
  background-color:white;	/* háttérszín */
  border:1px solid black;	/* vékony, folytonos, feket szegély*/
  box-shadow:5px 5px 20px black;	
  /* fekete doboz árnyék. Jobbra vetül 5 képponttal, lefele 5 képponttal, és 20 képpontos az elmosás*/
   }
-
 /* bekezdések megjelenésének beállítása */
  p {
 	 margin-left:20px;		/* bal margó */
@@ -53,7 +52,7 @@ body {
  
 /* felsoroláslisták megjelenésének beállítása */
 ul {
-	background-color:black;	/* fekete háttérszín*/
+	background-color:Teal;	/* türkíz háttérszín*/
 	margin:0;				/* margó lenullázása */ 
 	padding:30px;			/* belső kitöltés */
 }
@@ -74,39 +73,13 @@ h1 {
 	padding:10px;						/* belső kitöltés */
 	margin:0;							/* margó lenullázása */ 
 	text-align: center;					/* elhelyezés középen */
-		}
+}
 
 /* 2-es címsorok megjelenésének beállítása */
 h2 {
-	padding:10px;		/* belső kitöltés */
-	color:darkred;		/* sötétvörös szövegszín*/
+	padding:10px;				/* belső kitöltés */
+	color:darkred;				/* sötétvörös szövegszín*/
 	text-shadow:1px 1px gray;	/* szürke szövegárnyék beállítása*/
-}
-
-/*A fontos osztályba tartozó bekezdések megjelenésének beállítása */
-p.fontos {
-	padding-top:20px;		/* belső kitöltés felül */
-	padding-right:20px;		/* belső kitöltés jobb oldalon */
-	padding-bottom:20px;	/* belső kitöltés alul */
-	padding-left:60px;		/* belső kitöltés bal oldalon */
-	margin-right:40px;		/* margó jobb oldalon */
-	background-color:darkred;	/* sötétvörös háttérszín*/
-	color:white;				/* fehér szövegszín*/
-	background-image:url('../kepek/mancs.png');	/* háttérkép beállítása*/
-	background-repeat:no-repeat;	/* ne ismétlődjön a háttérkép*/
-	background-position:0 20px;		/* a háttérkép pozíciója */
-	width:40%;				/* szélesség beállítása */
-	float:right;			/* jobbra lebeg az elem, vagyis a többi elem balról veszi körbe */
-	transform:rotate(2deg); /* elforgatás */
-	border-radius:10px;		/* szegély lekerekítése*/
-	}
-
-/*A menu osztályba tartozó bekezdések megjelenésének beállítása */
-p.menu {
-	text-align:center;		/* szöveg középre igazítása*/
-	padding:10px;			/* belső kitöltés*/
-	font-weight:bold;		/* félkövér megjelenés*/
-	font-size:130%;			/* betű mérete */
 }
 
 /*A hivatkozások megjelenésének beállítása */
@@ -115,7 +88,7 @@ a {font-style:italic;}  	/* dőlt betűs megjelenés*/
 /*A képfeliratok megjelenésének beállítása */
 figcaption {
 	text-align:center;		/* szöveg középre igazítása*/
-	color:white;			/* fehér szövegszín*/
+	color:Silver;			/* ezüst szövegszín*/
 	font-weight:bold;		/* félkövér megjelenés*/
 	}
 	
@@ -197,18 +170,5 @@ caption {
 @media screen and (max-width:1000px) {
 	
 /*A fontos osztályba tartozó bekezdés megjelenése*/
-	p.fontos {
-		float:none;				/* lebegtetés letiltása*/
-		width:75%;				/* szélesség 75% */
-		margin-top:0;			/* felső margó*/
-		margin-right:0;			/* jobb oldali margó*/
-		margin-bottom:0;		/* alsó margó*/
-		margin-left:10px;		/* bal oldali margó*/
-		transform:rotate(0);	/* ne legyen elforgatva*/
-		font-size:120%;			/* betűméret beállítása*/
-		}
-		
-	/* A dokumentumtörzs megjelenésének beállítása*/
-	body {width:90%;}           /* szélesség beállítása*/
 }
 	
